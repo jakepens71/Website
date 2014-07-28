@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+#doc3 {
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
+    background-color:#000
+}
+
+body {
+    margin: 0;
+}    
+#wrapper {
+	 margin-left:300px;
+	 margin-right: auto;
+	 width:80%;
+
+}
+#leftcolumn, #rightcolumn {
+    float: left;
+    min-height: 450px;
+    color: white;
+}
+#leftcolumn {
+     width: 600px;
+
+}
+#rightcolumn {
+     width: 450px;
+
+}
+
+#top {
+	background-position:top;
+	background-color:#99F;
+	position:fixed;
+}
+
+.headers {
+	size:24px;
+	color:#000;
+	
+}
+.lists {
+	size:18px;
+	color:#03C
+}
+
+#bottom, #left, #right {
+	background:#03C
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	 #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
